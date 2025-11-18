@@ -72,3 +72,27 @@ npm run preview
 
 Enjoy your cosmic journey! 🌌
 
+## Live Demo
+
+🌐 **Live on GitHub Pages**: [View the app](https://YOUR_USERNAME.github.io/my-todo-app/)
+
+## Deployment
+
+This project is configured for automatic deployment to GitHub Pages using GitHub Actions. The workflow will automatically build and deploy the app whenever you push to the `main` branch.
+
+### Manual Deployment Steps
+
+1. Create a new repository on GitHub named `my-todo-app` (or your preferred name)
+2. Push your code:
+   ```bash
+   git remote add origin https://github.com/YOUR_USERNAME/my-todo-app.git
+   git branch -M main
+   git push -u origin main
+   ```
+3. Enable GitHub Pages:
+   - Go to your repository Settings → Pages
+   - Under "Source", select "GitHub Actions"
+   - The workflow will automatically deploy on the next push
+
+**Note**: Make sure to update the `base` path in `vite.config.js` to match your repository name if it's different from `my-todo-app`.
+
